@@ -1,0 +1,30 @@
+body{
+   color:#4c4d5f;
+   margin: 0; 
+   padding: 0 20px;
+
+}
+a{
+    color: #4c4d5f;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#serviceEl ul{
+   display: flex;
+    flex-direction: row; 
+    gap: 30px;
+}
+
+#CATEl ul{
+   display: flex;
+    flex-direction: row; 
+    gap: 30px;
+}
