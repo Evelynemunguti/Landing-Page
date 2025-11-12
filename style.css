@@ -1,7 +1,7 @@
 body{
    color:#4c4d5f;
    margin: 0; 
-   padding: 0 20px;
+   padding: 0 80px;
 
 }
 a{
@@ -15,6 +15,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
 }
 
 #serviceEl ul{
@@ -43,8 +45,10 @@ nav{
 .switchToggle {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     gap: 10px;
+   
 }
 
 
@@ -117,4 +121,52 @@ input:checked + .slider:before {
     right: -70px;
     transform: rotate(180deg); 
     pointer-events: none; 
+}
+
+.cash{
+    font-size: 40px;
+}
+
+.divider{
+    
+    width: 100%; 
+    border-bottom: 3px solid #00b289; 
+    height: 0; 
+    margin: 20px 0; 
+}
+.workFlow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px; 
+    padding: 50px 60px;
+    border-radius: 10px;
+}
+
+.workFlow button{
+    background-color: #00b289;
+    color: white;
+    font-weight: bold;
+    padding: 10px 100px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.workflowPlus{
+    border-style:solid;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 30px;
+}
+
+.workflowEl{
+    border-style:solid;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 30px;
 }
