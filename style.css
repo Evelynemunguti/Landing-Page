@@ -213,3 +213,11 @@ input:checked + .slider:before {
 .CAT p{
     font-size: 20px;
 }
+
+footer{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center; 
+}
