@@ -35,9 +35,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px; 
-    padding: 40px 60px;
-    border-radius: 10px;
+    margin-top: 50px;
+    padding: 0 200px;
+    
 }
 
 
@@ -139,8 +139,8 @@ input:checked + .slider:before {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 800px; 
-    padding: 50px 60px;
+   margin-top: 50px;
+   padding: 0 200px;
     border-radius: 10px;
 }
 
@@ -181,6 +181,8 @@ input:checked + .slider:before {
     border-radius: 10px;  
     border-style: groove;
    margin-top: 10px;
+   margin: 0 auto 20px auto;
+   
 }
 .paragraphEl{
     align-items: center;
@@ -199,6 +201,7 @@ input:checked + .slider:before {
     border-style:none;
     background-color: rgba(189, 213, 243, 0.2);
    margin-top: 10px;
+   margin: 0 auto 20px auto;
 
 }
 
@@ -214,6 +217,8 @@ input:checked + .slider:before {
     font-size: 20px;
 }
 
+
+
 footer{
    display: flex;
     flex-direction: row;
@@ -221,3 +226,4 @@ footer{
     max-width: 1200px;
     align-items: center; 
 }
+
