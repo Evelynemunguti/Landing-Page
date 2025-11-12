@@ -170,3 +170,46 @@ input:checked + .slider:before {
     align-content: center;
     padding: 5px 30px;
 }
+
+.partnersEl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px; 
+    padding: 20px;
+    border-radius: 10px;  
+    border-style: groove;
+   margin-top: 10px;
+}
+.paragraphEl{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.CAT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px; 
+    padding: 40px;
+    border-radius: 10px;  
+    border-style:none;
+    background-color: rgba(189, 213, 243, 0.2);
+   margin-top: 10px;
+
+}
+
+.CAT button{
+    background-color: #00b289;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+.CAT p{
+    font-size: 20px;
+}
