@@ -188,6 +188,7 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
 }
 
 .CAT{
@@ -217,13 +218,11 @@ input:checked + .slider:before {
     font-size: 20px;
 }
 
-
-
-footer{
-   display: flex;
+.all{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1200px;
-    align-items: center; 
 }
-
+#quizes{
+    margin-left: 30px;
+}
