@@ -5,7 +5,7 @@ body{
 
 }
 main{
-   padding: 0 150px;
+   padding: 0 130px;
     
 }
 a{
@@ -21,6 +21,7 @@ nav{
     justify-content: space-between;
     max-width: 1200px;
     align-items: center;
+    font-size: 18px;
 }
 
 .serviceEl ul{
@@ -140,10 +141,11 @@ input:checked + .slider:before {
 .workFlow{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin-top: 50px;
     border-radius: 10px;
+    gap:80px;
 }
 
 .workFlow button{
@@ -159,7 +161,7 @@ input:checked + .slider:before {
     position: relative; 
       overflow: hidden;   
     border: 2px solid #d0d7de;
-    max-width: 700px;
+    width: 700px;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -168,7 +170,7 @@ input:checked + .slider:before {
 
 .workflowEl{
    border: 2px solid #d0d7de;
-    max-width: 700px;
+    width: 700px;
     align-items: center;
     justify-content: center;
     align-content: center;
